@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+
+
+
+
+
+#verdiscografia{
+    color: rgb(245, 245, 245);
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+
+
+#verbiografia{
+    color: rgb(245, 245, 245);
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+#vervideos{
+    font-size: medium;  
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+#piano_bar_grid{
+    display: grid;
+
+
+}
+
+
+body{
+background-image: url(https://us.123rf.com/450wm/naropano/naropano1708/naropano170800337/84038741-textura-de-madera-del-fondo-negro-en-blanco-para-el-dise%C3%B1o.jpg);
+background-position: right;
+}
+
+
+header{
+
+
+    background-color: white;
+    background-image: url(https://historia-biografia.com/wp-content/uploads/2022/10/Charly-Garcia-2.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 700px;
+
+
+}
+
+.container-fluid{
+
+display: flex;
+justify-content: space-around;
+    
+}
+
+
+
+
+
+.p_logo{
+    width: 130px;
+    height: 130px;
+}
+
+
+
+.header_container{
+    display: flex;
+    align-items: center;
+ 
+
+}
+
+
+
+.header_nav{
+    padding-bottom: px;
+    padding-top: 15px;
+
+
+
+}
+
+
+
+
+.title_container{
+    margin-left: 20px;
+}
+
+
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+nav li{
+    list-style: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+
+nav a{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+
+
+
+
+h1{
+    color: black;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+
+}
+
+
+h2{
+    color: rgb(222, 208, 208);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 36px;
+    padding-right: 50px;
+}
+
+
+main{
+    grid-area: "main";
+
+}
+
+
+
+
+.p_1970{
+
+    border-bottom: solid 1px rgb(0, 0, 0);
+    border-left: solid 1px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    background-color: #43413c;
+   
+}
+
+
+background-color: rgb(106, 106, 120);
+
+.title_1970 h2{
+    color: rgb(222, 208, 208);
+}
+
+.p_1970 p{
+    color: rgb(222, 208, 208);
+    padding-bottom: 20px;
+}
+
+
+.p1970_contenido{
+    font-family: 'Inter', sans-serif;
+    font-size: 230%;
+    font-style: italic;
+    text-align: left;
+    margin-left: 70px;
+}
+
+
+.p1970_contenido p{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.p_foto1970{
+    width: 500px;
+    position: relative;
+    right: 50px;
+    bottom: 30px;
+
+}
+
+.img_container_1970{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+ 
+}
+
+
+.p1970_contenido h2{
+
+    padding-right: 60px;
+}
+
+
+.img_container_1970 p{
+    padding-right: 70px;
+    padding-top: 10px;
+}
+
+
+
+
+.p_1980{
+
+    font-family: 'Inter', sans-serif;
+    font-size: 230%;
+    font-style: italic;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    border-right: solid 1px rgb(0, 0, 0);
+    background-color: #43413c;
+   
+}
+
+.p_1980 h2{
+
+    color: rgb(222, 208, 208);
+
+}
+
+.p_1980 p{
+
+    color: rgb(222, 208, 208);
+}
+
+
+.img_1980{
+
+padding-left: 
+
+}
+
+.img_container_1980{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-left: 30px;
+
+}
+
+.title_1980{
+
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+
+    
+
+
+
+}
+
+.text_1980{
+
+text-align: right;
+padding-right: 30px;
+
+}
+
+
+
+
+
+
+.p_1990{
+    padding-top: px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: start;
+   border-bottom: solid 1px rgb(0, 0, 0);
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+    font-size: 230%;
+    font-style: italic;
+    text-align: left;
+    background-color: #43413c;
+}
+
+
+.p_1990contenido{
+    padding-top: 60px;
+    text-align: left;
+}
+
+.p_1990contenido p{
+    color: rgb(222, 208, 208);
+}
+
+.title1990_container{
+text-align: left;
+padding-bottom: 
+}
+
+
+
+.text_1990{
+    text-align: left;
+    padding-left: 40px;
+}
+
+.img_container_1990{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.p_foto1990{
+    width: 600px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+footer{
+
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.image_footer_container{
+    padding-top: 50px;
+}
+
+.copyright_redes_container{
+    position: relative;
+    bottom: 200px;
+}
+
+
+
+.footer_content{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 50px;
+    font-size: larger;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+
+.footer_content1{
+position: relative;
+right: 30px;
+}
+
+
+.footer_content1 li{
+    color: white;
+    font-size: small;
+}
+
+.footer_content2 li{
+    color: white;
+    font-size: small;
+}
+
+
+.p_instagram{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
+.p_twitter{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
+.p_spotify{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
+.p_youtube{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+.logosredes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.logosredes li{
+    display: inline-block;
+   
+}
+
+
+
+
+.logosredes a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+
+}
+
+
+
+.copyright{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 10px;
+      
+    }
+
+    .copyright p{
+        color: white;
+    }
+   
+   
+    .p_copyright{
+        height: 15px;
+        width: 15px;
+    }
+   
+   
+   
+   
+    .image_footer{
+        height: 250px;
+        width: 450px;
+        padding-top: 20px;
+    }
+   
+
+
+    .video_container1{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+
+    }
+
+
+
+    .song_title{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+.main_videos{
+    background-color: black;
+}
+
+
+.main_videos p{
+        padding-left: 37px ;
+        font-family: 'Roboto', sans-serif;
+        font-size: larger;
+        color: white;
+        font-weight: bold;
+
+
+    }
+
+
+    .main_videos h2{
+        color: white;
+        padding-left: 100px
+
+
+   
+    }
+
+
+@media screen and (max-width: 768px) {
+    
+header{ 
+background-image: none;
+
+}
+
+
+
+
+
+.header_container{
+    padding-top: 27px;
+
+}
+
+
+
+
+.p_foto1970{
+    width: 400px;
+    padding-left: 50px;
+
+
+}
+
+.img_container_1970{
+    display: block;
+    flex-direction: ro;
+
+}
+
+.p1970_contenido{
+    align-items: center;
+    text-align: center;
+    padding-right: 
+    font-size: 125%;
+    
+}
+
+.p1970_contenido p{
+    text-align: center;
+}
+
+.text_1970{
+
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title_1970{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+
+
+
+.img_container_1980{
+    display: block;
+    align-items: center
+
+}
+
+.p_foto1980{
+    padding-right: 110px;
+    
+}
+
+.img_1980{
+    width: 300px;
+}
+
+.title_1980{
+    display: flex;
+    justify-content: center;
+}
+
+.text_1980{
+
+    text-align: center;
+    padding-top: 15px;
+}
+
+    
+}
