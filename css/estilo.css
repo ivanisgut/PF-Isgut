@@ -361,6 +361,7 @@ padding-bottom:
 
 display: flex;
 justify-content: space-around;
+flex-direction: row-reverse;
 align-items: center;
 
 }
@@ -565,7 +566,6 @@ background-image: none;
 
 .header_container{
     padding-top: 27px;
-
 }
 
 
@@ -638,5 +638,62 @@ background-image: none;
     padding-top: 15px;
 }
 
-    
+.img_container_1990{
+
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.title1990_container{
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+
+}
+
+.p_foto1990{
+    width: 400px;
+    padding-left: 20px;
+
+}
+
+.text_1990{
+    text-align: center;
+    padding-right: 20px;
+}
+
+
+footer{
+
+
+}
+
+.image_footer{
+
+    width: 300px;
+}
+
+
+.copyright_redes_container{
+
+padding-left: 140px;
+position: relative;
+
+}
+
+.footer_content{
+    position: relative;
+    bottom: 170px;
+}
+
+.video_container1{
+    display: block;
+    text-align: center;
+}
+
+.song_title{
+    display: none;
+}
+
 }
