@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charly Garcia Sitio Oficial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
@@ -15,51 +18,58 @@
 
 
 
-        <header id="p_header" class="p_header">
-            <div class="header_container">
-                <img src="https://i.discogs.com/qc2YQEjWq8oDSVbH5A8pMUpRUJ8o46Zm-6RoxNl9Uqo/rs:fit/g:sm/q:90/h:500/w:459/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU4MjU1/MC0xNDI2OTExODI1/LTU4NzQuanBlZw.jpeg" alt="" class="p_logo">
+    <header id="p_header" class="p_header">
+        <div class="header_container">
+           <img src="https://i.discogs.com/qc2YQEjWq8oDSVbH5A8pMUpRUJ8o46Zm-6RoxNl9Uqo/rs:fit/g:sm/q:90/h:500/w:459/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU4MjU1/MC0xNDI2OTExODI1/LTU4NzQuanBlZw.jpeg" alt="" class="p_logo">
         <div class="title_container">
-            <h1>Charly Garcia Sitio Oficial</h1>
-        </div>
-    </div>
-    <div class="header_nav">
-            <nav id="p_nav">
+     <h1>Charly Garcia Sitio Oficial</h1>
+ </div>
+</div>
+<div class="header_nav">
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     <div class="container-fluid">
+
+       <a class="navbar-brand" href="../index.html">Inicio</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+
+       <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav">
+           <li class="nav-item">
+             <a class="nav-link" class="nav-link active" aria-current="page" href="./Discografía.html">Discografía</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="./Videos.html">Videos</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="./Biografia.html">Biografia</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="./Contacto.html">Contacto</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#Footer">Ir Abajo</a>
+           </li>
+         </ul>
+       </div>
+     </div>
+ </div>
+   </nav>
+
+ </header>
     
-                <ul> 
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                <li class="p_navbar"> 
-                    <a href="./pages/Discografía.html">Discografía</a>
-                </li>
-                <li>
-                    <a href="./pages/Videos.html">Videos</a>
-                </li>
-                <li>
-                    <a href="./pages/Biografia.html">Biografia</a>
-                </li>
-                <li>
-                    <a href="./pages/Contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="#Footer">Ir A Abajo</a>
-                </li>
-            </ul>
-        
-            </nav>
-        </div> 
-        </header>
-    
 
 
 
 
 
-<main>
-    <h2>Biografia</h2>
+<main class="main_bio">
+    <h2>Charly Garcia</h2>
     <section>
-        <h3>Infancia</h3>
-        <article>
+
+        <article class="bio_infancia">
+            <h3>Infancia</h3>
             <p>
             Carlos Alberto García nació en la ciudad de Buenos Aires, el 23 de octubre de 1951, en el seno de una familia de clase media alta, siendo el primogénito de Carmen Moreno y de Carlos Jaime García Lange, un empresario que era dueño de la primera fábrica de fórmica de la Argentina.26​27​ La familia la integraban además tres hermanos: Enrique, Daniel y Josi. La madre se dedicaba al cuidado y educación de sus hijos, con ayuda de niñeras profesionales. Cada hijo tenía su propia habitación.28​ La casa familiar era un departamento grande que se encontraba en el quinto piso de la calle José María Moreno 63, en el corazón del barrio de Caballito y a diez cuadras del Parque Centenario, donde solía ir a dibujar dinosaurios en el Museo Argentino de Ciencias Naturales.​ Los dinosaurios, los planetas y los mitos griegos eran los tres temas que entusiasmaban a Charly cuando era chico.​ La familia tenía también una casa quinta de fin de semana, con pileta, en la localidad de Paso del Rey.29​
 
@@ -69,9 +79,14 @@ Su padre comenzó a trabajar entonces como profesor de física y matemáticas, y
            </p>        
         </article>
     </section>
+
+
     <section>
-        <h3>Inicios en la musica</h3>
-        <article>
+
+        <article class="bio_inicios">
+            <h3>Inicios en la musica</h3>
+
+            <div class="bio_inicios_contenido">
          <p>
             La música comenzó desde muy temprano en la vida de García: a los dos años aprendió a tocar de oído una citarina y luego siguió con un pequeño piano de juguete que le regaló su abuela materna.39​
 
@@ -86,55 +101,77 @@ Su padre comenzó a trabajar entonces como profesor de física y matemáticas, y
             En 1963, a los doce años, se recibió de profesor de teoría y solfeo, pero al año siguiente, en 1964, García, como decenas de miles de jóvenes argentinos oyó por primera vez a Los Beatles, quienes causaron un cambio radical en su vida:45​
         
         </p>
+
+        <img src="https://www.notaalpie.com.ar/wp-content/uploads/2021/10/2-2.jpg" alt="ImagenCharlyJoven" class="foto_bio">
+
         </article>
+
+
+    </div>
+
     </section>
+
+
 </main>
 
  
 
-<footer id="Footer" class="p_footer"> 
+<footer id="Footer" class="p_footer">
 
-    <div class="image_footer">
-        <img src="https://th.bing.com/th/id/OIP.LFUgtA0-3MMUqjn4xnfaagHaEK?pid=ImgDet&rs=1" alt="Foto Footer">
+    <div class="image_footer_container">
+      <img src="https://th.bing.com/th/id/OIP.LFUgtA0-3MMUqjn4xnfaagHaEK?pid=ImgDet&rs=1" alt="Foto Footer"
+        class="image_footer">
     </div>
-    
-    
-    <div class="copyright">
-       
-       <img src="https://banner2.cleanpng.com/20180429/ite/kisspng-sound-recording-copyright-symbol-trademark-logo-5ae68a53d88464.4010673115250581318869.jpg" alt="Copyright" class="p_copyright">
+
+    <div class="copyright_redes_container">
+      <div class="copyright">
+
+        <img
+          src="https://banner2.cleanpng.com/20180429/ite/kisspng-sound-recording-copyright-symbol-trademark-logo-5ae68a53d88464.4010673115250581318869.jpg"
+          alt="Copyright" class="p_copyright">
         <p>
-            Copyright Charly Garcia
+          Copyright Charly Garcia
         </p>
-    </div>
-    
-        
-        
-        <div class="p_redes">
+      </div>
+
+
+
+      <div class="p_redes">
         <ul class="logosredes">
-          <li><img src="https://th.bing.com/th/id/R.26d9974a1feec9905a4e0d5e5ddf8db6?rik=SzKwS35RvJ2%2bKg&pid=ImgRaw&r=0" alt="Logo Instagram" class="p_instagram"></li>
+          <li><img
+              src="https://th.bing.com/th/id/R.26d9974a1feec9905a4e0d5e5ddf8db6?rik=SzKwS35RvJ2%2bKg&pid=ImgRaw&r=0"
+              alt="Logo Instagram" class="p_instagram"></li>
           <a href="https://www.instagram.com/charlygarcia/">Instagram</a>
-          <li><img src="https://pnggrid.com/wp-content/uploads/2021/05/Spotify-PNG-Logo-1536x1534.png" alt="Logo Spotify" class="p_spotify"></li>
+          <li><img src="https://pnggrid.com/wp-content/uploads/2021/05/Spotify-PNG-Logo-1536x1534.png"
+              alt="Logo Spotify" class="p_spotify"></li>
           <a href="https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo?si=ye91w-fjQZ22lqvwvzpesg">Spotify</a>
-          <li><img src="https://logos.edu.mx/wp-content/uploads/2021/01/YouTube-LOGO.png" alt="Logo Youtube" class="p_youtube"></li>
+          <li><img src="https://logos.edu.mx/wp-content/uploads/2021/01/YouTube-LOGO.png" alt="Logo Youtube"
+              class="p_youtube"></li>
           <a href="https://www.youtube.com/channel/UCwdcsrSoGZLPNpRurWqySAA">Youtube</a>
         </ul>
+      </div>
     </div>
-    
+
     <div class="footer_content">
+      <div class="footer_content1">
         <ul>
-            <li>Contacto</li>
-            <li>Terminos</li>
-            
+          <li>Contacto</li>
+          <li>Terminos</li>
+      </div>
+      </ul>
+
+      <div class="footer_content2">
+        <ul>
+          <li>Privacidad</li>
+          <li>Creditos</li>
         </ul>
-    
-        <div>
-            <ul>
-              <li>Privacidad</li>
-              <li>Creditos</li>
-            </ul>
-        </div>
+      </div>
     </div>
-       </footer> 
+
+</div>
+
+
+</footer>
     
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 

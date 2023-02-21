@@ -70,6 +70,7 @@ header{
 
 }
 
+
 .container-fluid{
 
 display: flex;
@@ -81,7 +82,7 @@ background-color: black;
 
 .nav-link{
     color: white;
-    align-items: center;
+
 
 }
 
@@ -176,7 +177,7 @@ h2{
 
 h3{
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 25px;
     text-decoration: underline;
     text-align: center;
@@ -186,10 +187,7 @@ h3{
 }
 
 
-main{
-    grid-area: "main";
 
-}
 
 
 
@@ -206,10 +204,10 @@ main{
 }
 
 
-background-color: rgb(106, 106, 120);
-
 .title_1970 h2{
-    color: rgb(222, 208, 208);
+
+    color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 .p_1970 p{
@@ -242,7 +240,7 @@ background-color: rgb(106, 106, 120);
 
 }
 
-.img_container_1970{
+.imgtext_container_1970{
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
@@ -256,7 +254,7 @@ background-color: rgb(106, 106, 120);
 }
 
 
-.img_container_1970 p{
+.imgtext_container_1970 p{
     padding-right: 70px;
     padding-top: 10px;
 }
@@ -280,7 +278,8 @@ background-color: rgb(106, 106, 120);
 
 .p_1980 h2{
 
-    color: rgb(222, 208, 208);
+    color: white;
+    font-family: 'Oswald', sans-serif;
 
 }
 
@@ -296,7 +295,7 @@ padding-left:
 
 }
 
-.img_container_1980{
+.imgtext_container_1980{
 
     display: flex;
     align-items: center;
@@ -356,17 +355,22 @@ padding-right: 30px;
 
 .title1990_container{
 text-align: left;
-padding-bottom: 
+padding-left: 10px;
+
 }
 
+.title1990_container h2{
+    font-family: 'Oswald', sans-serif;
+    color: white;
 
+}
 
 .text_1990{
     text-align: left;
     padding-left: 40px;
 }
 
-.img_container_1990{
+.imgtext_container_1990{
 
 display: flex;
 justify-content: space-around;
@@ -393,6 +397,8 @@ footer{
 
 .image_footer_container{
     padding-top: 50px;
+    display: flex;
+    justify-content: start;
 }
 
 .copyright_redes_container{
@@ -555,11 +561,114 @@ right: 30px;
 
     .main_videos h2{
         color: white;
-        padding-left: 100px
+        padding-left: 100px;
+        font-family: 'Oswald', sans-serif;
 
 
    
     }
+
+form{
+    background-color: rgb(194, 62, 62);
+    display: flex;
+    justify-content: start;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.form_container{
+    background-color: rgb(194, 62, 62);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.form_container h3{
+    text-align: start;
+    padding-top: 20px;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.foto_contacto{
+    
+    height: 400px;
+    width: 600px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.main_bio h2{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.foto_bio{
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.bio_infancia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio_infancia p {
+
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.bio_infancia h3{
+
+    text-decoration: none;
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+.bio_inicios{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.bio_inicios p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.bio_inicios h3{
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bio_inicios_contenido{
+    display: flex;
+    align-items: center;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -587,7 +696,7 @@ background-image: none;
 
 }
 
-.img_container_1970{
+.imgtext_container_1970{
     display: block;
     flex-direction: ro;
 
@@ -621,7 +730,7 @@ background-image: none;
 
 
 
-.img_container_1980{
+.imgtext_container_1980{
     display: block;
     align-items: center
 
@@ -647,7 +756,7 @@ background-image: none;
     padding-top: 15px;
 }
 
-.img_container_1990{
+.imgtext_container_1990{
 
     display: block;
     align-items: center;
@@ -671,6 +780,7 @@ background-image: none;
     text-align: center;
     padding-right: 20px;
 }
+
 
 
 footer{
@@ -706,3 +816,41 @@ position: relative;
 }
 
 }
+
+
+@media screen and (max-width: 480px) {
+
+    .p_foto1980{
+        width: 400px;
+        padding-left: 40px;
+    }
+
+
+.copyright_redes_container{
+    position: relative;
+    top: 40px;
+    right: 40px;
+}
+
+.footer_content{
+
+    position: relative;
+    bottom: 75px;
+    right: 55px;
+
+
+}
+
+.image_footer{
+    width: 100%;
+}
+
+.video{
+    
+    width: 400px;
+}
+
+
+
+}
+
