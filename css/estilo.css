@@ -671,6 +671,13 @@ form{
 }
 
 
+@media screen and (max-width: 1000px){
+
+    header{
+        background-image: none;
+    }
+}
+
 @media screen and (max-width: 768px) {
     
 header{ 
