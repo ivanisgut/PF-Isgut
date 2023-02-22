@@ -120,6 +120,7 @@ background-color: black;
 
 .title_container{
     margin-left: 20px;
+    padding-top: 50px;
 }
 
 
@@ -380,7 +381,7 @@ align-items: center;
 }
 
 .p_foto1990{
-    width: 600px;
+    width: 400px;
     padding-right: 30px;
     padding-bottom: 30px;
 }
@@ -402,8 +403,7 @@ footer{
 }
 
 .copyright_redes_container{
-    position: relative;
-    bottom: 200px;
+
 }
 
 
@@ -691,6 +691,7 @@ background-image: none;
 
 .header_container{
     padding-top: 27px;
+
 }
 
 
@@ -701,7 +702,7 @@ background-image: none;
     padding-left: 50px;
 
 
-}
+
 
 .imgtext_container_1970{
     display: block;
@@ -744,7 +745,9 @@ background-image: none;
 }
 
 .p_foto1980{
-    padding-right: 110px;
+    
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -809,8 +812,8 @@ position: relative;
 }
 
 .footer_content{
-    position: relative;
-    bottom: 170px;
+
+
 }
 
 .video_container1{
@@ -826,6 +829,18 @@ position: relative;
 
 
 @media screen and (max-width: 480px) {
+
+    .imgtext_container_1970{
+
+
+
+       
+    }
+
+    .p_foto1970{
+        width: 300px;
+    }
+
 
     .p_foto1980{
         width: 400px;
@@ -861,3 +876,20 @@ position: relative;
 
 }
 
+@media screen and (max-width: 320px){
+
+    .p_foto1970{
+        width: 250px;
+    }
+
+    .p1970_contenido p{
+
+        font-size: 50%;
+    }
+
+    .p_1980 p{
+        font-size: 50%;
+    }
+
+
+}
