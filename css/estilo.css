@@ -45,11 +45,6 @@ html{
 
 
 
-#piano_bar_grid{
-    display: grid;
-
-
-}
 
 
 body{
@@ -312,9 +307,6 @@ padding-left:
     justify-content: end;
     padding-right: 40px;
 
-    
-
-
 
 }
 
@@ -356,7 +348,7 @@ padding-right: 30px;
 
 .title1990_container{
 text-align: left;
-padding-left: 10px;
+padding-left: 42px;
 
 }
 
@@ -415,6 +407,7 @@ footer{
     padding-right: 50px;
     font-size: larger;
     font-family: 'Inter', sans-serif;
+padding-top: 50px;
 
 }
 
@@ -698,15 +691,17 @@ background-image: none;
 
 
 .p_foto1970{
+    display: ;
     width: 400px;
     padding-left: 50px;
 
-
+}
 
 
 .imgtext_container_1970{
     display: block;
-    flex-direction: ro;
+
+    align-items: center;
 
 }
 
@@ -714,7 +709,7 @@ background-image: none;
     align-items: center;
     text-align: center;
     padding-right: 
-    font-size: 125%;
+    font-size: 100%
     
 }
 
@@ -722,17 +717,20 @@ background-image: none;
     text-align: center;
 }
 
+
+
 .text_1970{
 
     text-align: center;
     padding-bottom: 20px;
+    size: 0.8rem
 }
 
 .title_1970{
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
-    padding-right: 40px;
+    padding-right: px;
 }
 
 
@@ -740,30 +738,35 @@ background-image: none;
 
 .imgtext_container_1980{
     display: block;
-    align-items: center
+
 
 }
 
 .p_foto1980{
     
     display: flex;
-    justify-content: center;
+
+    width: 350px;
     
 }
 
-.img_1980{
-    width: 300px;
-}
+
+
 
 .title_1980{
     display: flex;
     justify-content: center;
+
 }
 
 .text_1980{
 
     text-align: center;
     padding-top: 15px;
+}
+
+.title1990_container{
+    padding-right: 10px;
 }
 
 .imgtext_container_1990{
@@ -776,20 +779,27 @@ background-image: none;
 .title1990_container{
     display: flex;
     justify-content: center;
-    padding-right: 10px;
+    padding-right: 20px;
 
 }
 
 .p_foto1990{
+    display: ;
     width: 400px;
-    padding-left: 20px;
 
+
+}
+
+.img_1990{
+    display: ;
 }
 
 .text_1990{
     text-align: center;
     padding-right: 20px;
 }
+
+
 
 
 
@@ -811,40 +821,39 @@ position: relative;
 
 }
 
-.footer_content{
-
-
-}
 
 .video_container1{
     display: block;
     text-align: center;
 }
 
-.song_title{
+.song_title p{
     display: none;
 }
 
-}
 
+
+.main_videos h2{
+    display: flex;
+    justify-content: center;
+    padding-right: 60px;
+}
+}
 
 @media screen and (max-width: 480px) {
 
-    .imgtext_container_1970{
-
-
-
-       
-    }
+.title_container{
+    margin-left: 85px;
+}
 
     .p_foto1970{
-        width: 300px;
+        width: 400px;
     }
 
 
     .p_foto1980{
         width: 400px;
-        padding-left: 40px;
+
     }
 
 
@@ -878,18 +887,59 @@ position: relative;
 
 @media screen and (max-width: 320px){
 
+    .title_container{
+        margin-left: 10px;
+    }
+
+
+
     .p_foto1970{
         width: 250px;
     }
 
     .p1970_contenido p{
 
-        font-size: 50%;
+        font-size: 75%;
+    }
+
+    .title_1980{
+        padding-right: 0;
     }
 
     .p_1980 p{
-        font-size: 50%;
+        font-size: 75%;
     }
 
 
+    .p_foto1980{
+        width: 250px;
+        padding-right: 25px;
+    }
+
+    .title1990_container{
+        padding-right: 0;
+        padding-left: 0;
+
+    }
+
+
+
+    .p_foto1990{
+        width: 250px;
+        padding-left: 25px;
+    }
+
+    .text_1990{
+        font-size: 75%;
+    }
+
+    .copyright_redes_container{
+        margin-right: 30px;
+    }
+
+
+
+    .video{
+        width: 250px;
+    }
 }
