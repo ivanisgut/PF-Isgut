@@ -1,0 +1,935 @@
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+#verdiscografia{
+    color: rgb(245, 245, 245);
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    transition: 2s;
+
+
+}
+
+#verdiscografia:hover{
+    color: gold;
+}
+
+
+
+
+#verbiografia{
+    color: rgb(245, 245, 245);
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    transition: 2s;
+}
+
+#verbiografia:hover{
+    color: gold;
+}
+
+
+
+
+#vervideos{
+    font-size: medium;  
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    transition: 2s;
+}
+
+#vervideos:hover{
+    color: gold;
+}
+
+
+
+body{
+    background-image: url(https://us.123rf.com/450wm/naropano/naropano1708/naropano170800337/84038741-textura-de-madera-del-fondo-negro-en-blanco-para-el-dise%C3%B1o.jpg);
+
+
+    background-position: right;
+}
+
+
+    header{
+        background-color: white;
+        background-image: url(https://historia-biografia.com/wp-content/uploads/2022/10/Charly-Garcia-2.webp);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 700px;
+   
+
+
+        h1{
+            color: black;
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+        
+        }
+        
+
+
+        .title_container{
+            margin-left: 20px;
+            padding-top: 50px;
+
+            h1{
+                color: black;
+                text-align: left;
+                font-family: 'Roboto', sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+            
+            }
+        }
+       
+
+        .p_logo{
+            width: 130px;
+            height: 130px;
+        }
+       
+
+
+
+
+.header_container{
+
+        display: flex;
+        align-items: center;
+     
+    }
+
+}
+
+
+nav{
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+
+    }
+
+
+    li{
+        list-style: none;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+
+    a{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+
+    .container-fluid{
+
+
+
+
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+       
+       
+           
+        }
+        .navbar-brand{
+            color: #b2afa5;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 1.6rem;
+       
+       
+        }
+        .nav-link{
+            color: #b2afa5;
+
+        }
+
+        .nav-link:hover{
+            color: white;
+        }
+        .navbar-brand:hover{
+            color: white;
+        }
+         
+       
+}
+
+
+
+
+
+
+
+
+
+main{
+    .p_1970{
+        border-bottom: solid 1px rgb(0, 0, 0);
+        border-left: solid 1px rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        background-color: #43413c;
+
+        p{
+            color: rgb(222, 208, 208);
+            padding-bottom: 20px;
+        }
+
+        .p1970_contenido{
+            font-family: 'Inter', sans-serif;
+            font-size: 230%;
+            font-style: italic;
+            text-align: left;
+            padding-left: 72px;
+
+            h2{
+                padding-right: 60px;
+                color: white;
+                font-family: 'Oswald', sans-serif;
+            }
+
+            p{
+                text-align: left;
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+
+            .p_foto1970{
+                width: 400px;
+                padding-right: 30px;
+                padding-bottom: 20px;
+                transform: scale(400px,420px);
+                transition: 2s;
+
+            
+            }
+
+            .p_foto1970:hover{
+                width: 450px;
+            }
+
+            .imgtext_container_1970{
+                display: flex;
+                justify-content: space-around;
+                flex-direction: row-reverse;
+
+                p{
+
+                    padding-top: 10px;
+                }
+                .text_1970{
+
+                    .verdiscografia{
+                        padding-bottom: 20px;
+                        display: inline;
+
+
+                    }
+
+
+                }
+             
+            }
+            
+            
+        }
+
+    }
+}
+
+
+main{
+    .p_1980{
+        font-family: 'Inter', sans-serif;
+        font-size: 230%;
+        font-style: italic;
+        text-align: right;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        border-bottom: solid 1px rgb(0, 0, 0);
+        border-right: solid 1px rgb(0, 0, 0);
+        background-color: #43413c;
+        p{
+            color: rgb(222, 208, 208);
+            padding-bottom: 20px;
+        }
+
+        h2{
+            color: white;
+            font-family: 'Oswald', sans-serif;
+        }
+
+
+    .p1980_contenido{
+
+        .title_1980{
+
+
+            display: flex;
+            justify-content: end;
+            padding-right: 40px;
+        
+        }
+
+        .imgtext_container_1980{
+
+
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-bottom: 30px;
+            padding-left: 30px;
+
+            .p_foto1980{
+                width: 450px;
+
+                transform: scale(450px,480px);
+                transition: 2s;
+            }
+
+            .p_foto1980:hover{
+                width: 480px;
+            }
+        
+        
+        }
+
+        .text_1980{
+
+            text-align: right;
+            padding-right: 30px;
+            padding-left: 30px;
+            
+            
+            }
+            
+        
+
+
+        
+    }
+    }
+}
+
+main{
+    .p_1990{
+
+
+        padding-bottom: 15px;
+        display: flex;
+        align-items: start;
+       border-bottom: solid 1px rgb(0, 0, 0);
+        justify-content: space-around;
+        font-family: 'Inter', sans-serif;
+        font-size: 230%;
+        font-style: italic;
+        text-align: left;
+        background-color: #43413c;
+        p{
+            color: rgb(222, 208, 208);
+
+        }
+        h2{
+            color: white;
+            font-family: 'Oswald', sans-serif;
+        }
+
+
+        .p_1990contenido{
+
+            padding-top: 20px;
+            text-align: left;
+
+            .p_foto1990{
+                width: 400px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                transform: scale(400px,430px);
+                transition: 2s;
+            }
+
+            .p_foto1990:hover{
+                width: 430px;
+            }
+            .title1990_container{
+                text-align: left;
+                padding-left: 50px;
+
+                
+                
+                }
+                            
+
+            .imgtext_container_1990{
+
+
+                display: flex;
+                justify-content: space-around;
+                flex-direction: row-reverse;
+                align-items: center;
+                padding-left: 20px;
+                
+                
+                }
+                .text_1990{
+                    text-align: left;
+
+                }
+                
+                
+        }
+    }
+}
+
+footer{
+
+    background-color: rgb(0, 0, 0);
+
+
+.p_logo_redes{
+    height: 25px;
+    width: 25px;
+}
+
+
+   
+.p_copyright{
+    height: 15px;
+    width: 15px;
+}
+
+.image_footer{
+    height: 250px;
+    width: 450px;
+
+
+}
+.image_footer_container{
+    display: flex;
+    justify-content: start;
+}
+
+
+.copyright{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 10px;
+
+    p{
+        color: white;
+    }
+     
+    }
+
+    .logosredes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        li{
+            display: inline-block;
+        }
+        a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-family: 'Inter', sans-serif;
+            font-size: medium;
+        }
+    }
+
+    .footer_content{
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        padding-right: 50px;
+        font-size: small;
+        font-family: 'Inter', sans-serif;
+        color: white;
+    padding-top: 50px;
+
+    
+    
+    }
+    
+}
+@media screen and (max-width: 1200px){
+
+    header{
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    header{
+        background-image: none;
+    }
+
+    footer{
+
+        .image_footer_container{
+            .image_footer{
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header{
+        background-image: none;
+
+        .header_container{
+
+        
+        }
+        .title_container{
+            display: flex;
+            justify-content: center;
+
+            margin-left: 15px;
+
+        }
+        
+        }
+
+        main{
+            p{
+                font-size: 1.4rem;
+            }
+
+            .p1970_contenido{
+
+
+                .title_1970{
+                    display: flex;
+                    justify-content: start;
+
+
+                }
+
+                .imgtext_container_1970{
+
+                    
+                .p_foto1970{
+                    width: 300px;
+                    margin-top: 30px;
+                    margin-left: 30px;
+                }
+
+                .text_1970{
+                    
+
+
+
+                }
+
+                }
+
+
+
+
+            
+            
+        }
+        
+    
+    }
+
+
+    .p1980_contenido{
+
+        .title_1980{
+
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .imgtext_container_1980{
+
+            align-items: center;
+
+            .p_foto1980{
+                width: 300px;
+
+            }
+        }
+
+    }
+
+    .p_1990contenido{
+
+
+        .imgtext_container_1990{
+
+            .row{
+                .col-xl-5{
+                    .p_foto1990{
+
+
+                        width: 315px;
+                        height: 250px;
+                    }
+
+                }
+            }
+
+
+
+            .text_1990{
+
+                margin-left: 13px;
+
+            }
+
+
+        }
+    }
+
+
+
+
+    footer{
+        .image_footer_container{
+
+            .image_footer{
+                width: 250px;
+                height: 170px;
+            }
+        }
+
+        .copyright_redes_container{
+            
+
+
+            p{
+                font-size: 10px;
+            }
+            a{
+                font-size: 10px;
+            }
+        }
+
+.footer_content{
+
+    ul{
+        padding-top: 70px;
+    }
+
+}
+        }
+
+
+    }
+
+
+    @media screen and (max-width: 480px){
+
+        header{
+            .title_container{
+                padding-top: 10px;
+
+            }
+        }
+
+        main{
+
+            p{
+                font-size: 1.2rem;
+            }
+
+
+            .p_1970{
+                
+                .p1970_contenido{
+
+
+                    text-align: center;
+                    font-style: normal;
+                    padding-left: 0px;
+
+                    p{
+                        text-align: center;
+                    }
+                    h2{
+                        padding-right: 0px;
+                    }
+
+    
+    
+    
+                    .title_1970{
+                        display: flex;
+                        justify-content: center;
+
+                    }
+    
+                    .imgtext_container_1970{
+    
+                        display: block;
+                        flex-direction: row;
+                        align-items: center;
+
+                        .text_1970{
+                            text-align: center;
+                        }
+    
+    
+    
+                        .p_foto1970{
+                            width: 300px;
+                            height: 150px;
+                            margin-left: 0px;
+                            padding-right: 0px;
+
+    
+                        }
+    
+                    }
+    
+                }
+            }
+
+   
+
+
+            .p_1980{
+
+                padding-bottom: 0px;
+                .p1980_contenido{
+
+                    text-align: center;
+                    font-style: normal;
+
+                .title_1980{
+                    display: flex;
+                    justify-content: center;
+                    padding-right: 0px;
+
+                }
+                    .imgtext_container_1980{
+                        display: block;
+                        padding-left: 0px;
+
+
+                        .text_1980{
+                            text-align: center;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+
+}
+
+
+.p_1990{
+    .p_1990contenido{
+
+
+        text-align: center;
+        font-style: normal;
+        padding-top: 0px;
+
+        p{
+            text-align: center;
+        }
+
+        
+
+
+        .title1990_container{
+            display: flex;
+            justify-content: center;
+            padding-left: 0px;
+
+        }
+
+
+        .imgtext_container_1990{
+
+            display: block;
+            padding-left: 0px;
+
+            .text_1990{
+
+                text-align: center;
+            }
+
+            .row{
+                .col-xl-5{
+                    .p_foto1990{
+                        width: 300px;
+                        height: 200px;
+                        padding-right: 0px;
+
+                    }
+                }
+            }
+
+
+        }
+    }
+
+}
+
+        }
+
+
+        footer{
+            .image_footer_container{
+                .image_footer{
+                    width: 100vw;
+                }
+            }
+
+            .footer_content{
+
+                padding-top: 0px;
+                justify-content: center;
+                padding-right: 0px;
+            }
+
+
+
+        }
+
+
+    }
+
+
+
+    @media screen and (max-width: 320px){
+
+        header{
+            .title_container{
+                margin-left: 3px;
+            }
+        }
+
+        main{
+            .p_1970{
+                .p1970_contenido{
+                    padding-left: 0px;
+                    font-size: 0%;
+
+                    h2{
+                        padding-right: 0px;
+                    }
+
+                    .title_1970{
+                        padding-right: 0px;
+
+
+                    }
+
+                    .imgtext_container_1970{
+
+                        .p_foto1970{
+                            margin-top: 0px;
+
+                            margin-left: 0px;
+                        }
+                        .text_1970{
+
+
+                            padding-bottom: 15px;
+
+                            .verdiscografia{
+                                display: flex;
+                                justify-content: center;
+
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        main{
+            .p_1980{
+    
+                .p1980_contenido{
+                    .title_1980{
+                        padding-left: 0px;
+                        padding-right: 0px;
+                    }
+                }
+            }
+        }
+
+        
+    main{
+        .p_1990{
+            .p_1990contenido{
+
+                .p_foto1990{
+                    padding-right: 0px;
+                }
+                .title1990_container{
+                    padding-left: 0px;
+                    padding-right: 0px;
+                }
+
+                .imgtext_container_1990{
+                    padding-left: 0px;
+
+                    .text_1990{
+                        margin-left: 0px;
+                    }
+                    .row{
+                        .col-xl-5{
+                            .p_foto1990{
+                                width: 250px;
+                                padding-left: 0px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+
+
+
+

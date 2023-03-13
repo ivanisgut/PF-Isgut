@@ -1,0 +1,400 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_bio{
+    h2{
+        display: flex;
+        justify-content: end;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+
+        
+    }
+
+    .bio_inicios{
+        padding-left: 55px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        p{
+            color: white;
+            font-size: 1.2rem;
+        }
+        h3{
+            display: flex;
+            justify-content: start;
+            text-decoration: none;
+            font-size: 2.7rem;
+            font-weight: bold;
+            font-family: 'Oswald', sans-serif;
+        }
+        .bio_inicios_contenido{
+
+            display: flex;
+            align-items: center;
+
+            .text_img_bioinicios{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+        }
+        
+        
+
+.foto_bio{
+    width: 400px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+    }
+
+    .foto_infancia{
+        width: 400px;
+    }
+
+    .bio_infancia{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .text_img_bioinfancia{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+
+        p{
+            color: white;
+            font-size: 1.2rem;
+            padding-left: 40px;
+        }
+        h3{
+            display: flex;
+            justify-content: start;
+            text-decoration: none;
+            font-size: 2.7rem;
+            font-weight: bold;
+            font-family: 'Oswald', sans-serif;
+            padding-left: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    header{
+        background-image: none;
+    }
+
+    .main_bio{
+
+        .bio_infancia{
+            .text_img_bioinfancia{
+                justify-content: start;
+
+            }
+        }
+    }
+
+    .foto_infancia{
+        margin-left: 30px;
+    }
+
+    .main_bio{
+        .bio_inicios{
+            .bio_inicios_contenido{
+                .text_img_bioinicios{
+                    justify-content: start;
+
+                }
+            }
+
+        }
+    }
+
+    .foto_bio{
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+
+    header{
+        background-image: none;
+    }
+
+    .main_bio{
+        .bio_infancia{
+            display: block;
+            h3{
+                justify-content: center;
+            }
+            .text_img_bioinfancia{
+                display: block;
+            }
+        }
+
+    }
+
+    .foto_bio_infancia{
+        margin-top: 20px;
+    }
+
+    .main_bio{
+        .bio_inicios{
+            display: block;
+            h3{
+                justify-content: center;
+            }
+            .bio_inicios_contenido{
+                display: block;
+                .text_img_bioinicios{
+                    display: block;
+                }
+            }
+    
+        }
+    }
+
+    .foto_bio{
+        margin-top: 20px;
+    }
+
+    footer{
+
+        .image_footer_container{
+            .image_footer{
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .main_bio{
+
+        h2{
+            justify-content: center;
+            color: black;
+        }
+        background-color: white;
+        .bio_infancia{
+            display: block;
+
+            h3{
+                justify-content: center;
+                padding-left: 0px;
+                padding-right: 0px;
+                color: black;
+            }
+            p{
+                color: black;
+                padding-left: 0px;
+            }
+
+            .text_img_bioinfancia{
+                display: block;
+
+                .foto_bio_infancia{
+                    .foto_infancia{
+                        padding-top: 20px;
+                        margin-left: 0px;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .main_bio{
+        .bio_inicios{
+            display: block;
+            background-color: white;
+            padding-left: 0px;
+
+            h3{
+                display: block;
+                color: black;
+            }
+
+            p{
+                color: black;
+            }
+
+            .foto_bio{
+
+                margin-left: 0px;
+                padding-top: 20px;
+            }
+
+            .bio_inicios_contenido{
+                display: block;
+
+                .text_img_bioinicios{
+                    display: block;
+                }
+            }
+        }
+    }
+
+    footer{
+        .image_footer_container{
+    
+            .image_footer{
+                width: 250px;
+                height: 170px;
+            }
+        }
+    
+        .copyright_redes_container{
+            
+    
+    
+            p{
+                font-size: 10px;
+            }
+            a{
+                font-size: 10px;
+            }
+        }
+    
+    .footer_content{
+    
+    ul{
+        padding-top: 70px;
+    }
+    
+    }
+        }
+}
+
+@media screen and (max-width: 480px){
+
+    footer{
+        .image_footer_container{
+            .image_footer{
+                width: 100vw;
+            }
+        }
+
+        .footer_content{
+
+            padding-top: 0px;
+            justify-content: center;
+            padding-right: 0px;
+        }
+
+
+
+    }
+}
+
+@media screen and (max-width: 391px){
+    .main_bio{
+        .foto_infancia{
+            width: 300px;
+            margin-left: 0px;
+        }
+    }
+
+    .main_bio{
+        .bio_inicios{
+            .foto_bio{
+                width: 300px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 415px){
+    
+    .main_bio{
+        .bio_inicios{
+            .foto_bio{
+                width: 350px;
+            }
+        }
+    }
+
+    .main_bio{
+        .foto_infancia{
+            width: 350px;
+        }
+    }
+}
+
+@media screen and (max-width: 376px){
+
+
+    .main_bio{
+        .foto_infancia{
+            width: 300px;
+        }
+    }
+
+
+    .main_bio{
+        .bio_inicios{
+            .foto_bio{
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .main_bio{
+        .foto_infancia{
+            width: 300px;
+            margin-left: 0px;
+        }
+    }
+
+    .main_bio{
+        .bio_inicios{
+            .foto_bio{
+                width: 300px;
+                padding-right: 10px;
+            }
+        }
+    }
+
+}
+

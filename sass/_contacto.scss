@@ -1,0 +1,259 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title_contacto{
+    display: flex;
+    justify-content: start;
+    background-color: rgb(194, 62, 62);
+    border-bottom: solid 1px rgb(255, 255, 255);
+
+
+    h2{
+        font-family: 'Oswald', sans-serif;
+        display: flex;
+        justify-content: start;
+        color: white;
+        font-weight: bold;
+        padding-left: 35px;
+
+    }
+}
+
+
+
+
+.form_container{
+    background-color: rgb(194, 62, 62);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 20px;
+
+    form{
+        background-color: rgb(194, 62, 62);
+        display: flex;
+        justify-content: start;
+        font-family: 'Roboto', sans-serif;
+        font-size: medium;
+        font-weight: bold;
+        padding-top: 20px;
+        text-align: center;
+
+    }
+
+    h3{
+        text-align: start;
+        padding-top: 20px;
+        justify-content: center;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+    .foto_contacto{
+   
+        height: 350px;
+        width: 430px;
+        padding-top: 30px;
+        padding-right: 30px;
+    }
+
+    .botones_contacto{
+        display: flex;
+        justify-content: center;
+
+
+
+        .boton_enviar{
+            font-family: 'Oswald', sans-serif;
+
+            width: 50px;
+            height: 30px;
+            color: white;
+            background-color: black;
+            margin-right: 30px;
+            transition: 1s;
+
+        }
+
+        .boton_enviar:hover{
+            width: 60px;
+            height: 40px;
+
+        }
+
+        .boton_reset{
+            font-family: 'Oswald', sans-serif;
+            color: white;
+            background-color: black;
+            margin-right: 20px;
+            width: 50px;
+            height: 30px;
+            transition: 1s;
+        }
+
+        .boton_reset:hover{
+            width: 60px;
+            height: 40px;
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 1200px){
+
+    header{
+        background-image: none;
+    }
+
+    .form_container{
+        .foto_contacto{
+            width: 380px;
+            height: 310px;
+            margin-right: 20px;
+            margin-top: 40px;
+
+        }
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    header{
+        background-image: none;
+    }
+
+    .form_container{
+        .foto_contacto{
+            margin-right: 0px;
+
+        }
+    }
+
+    footer{
+
+        .image_footer_container{
+            .image_footer{
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .title_contacto{
+        justify-content: center;
+        h2{
+            padding-left: 0px;
+        }
+
+    }
+
+    .form_container{
+
+
+        .foto_contacto{
+
+            display: none;
+
+        }
+
+        h3{
+            padding-right: 0px;
+
+        }
+        form{
+            font-size: 1.2rem;
+
+        }
+    }
+
+    footer{
+        .image_footer_container{
+    
+            .image_footer{
+                width: 250px;
+                height: 170px;
+            }
+        }
+    
+        .copyright_redes_container{
+            
+    
+    
+            p{
+                font-size: 10px;
+            }
+            a{
+                font-size: 10px;
+            }
+        }
+    
+    .footer_content{
+    
+    ul{
+        padding-top: 70px;
+    }
+    
+    }
+        }
+
+
+}
+
+@media screen and (max-width: 376px){
+
+
+    .form_container{
+
+        h3{
+            font-size: medium;
+            padding-left: 10px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    .form_container{
+        display: block;
+    }
+
+    h3{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 391px){
+
+    .form_container{
+        h3{
+            padding-left: 10px;
+        }
+    }
+
+}
