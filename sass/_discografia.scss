@@ -111,7 +111,10 @@
             }
         }
         .disco{
+
             width: 400px;
+            transition: none;
+            transform: none;
         }
     }
 
@@ -135,13 +138,38 @@
     }
 }
 
+@media screen and (max-width: 415px){
+
+    .main_discos{
+        .disco{
+            width: 350px;
+
+        }
+    }
+
+}
+
+@media screen and (max-width: 376px){
+
+    .main_discos{
+        .disco{
+            width: 300px;
+        }
+    }
+
+}
+
 @media screen and (max-width: 320px){
 
     .main_discos{
 
 
         .disco{
-            width: 300px;
+            width: 270px;
+        }
+
+        .disco:hover{
+            display: none;
         }
     }
 }

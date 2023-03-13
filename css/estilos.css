@@ -439,6 +439,12 @@ footer .footer_content {
     display: block;
     padding-left: 0px;
   }
+  main .p_1980 .p1980_contenido .imgtext_container_1980 .p_foto1980 {
+    width: 300px;
+  }
+  main .p_1980 .p1980_contenido .imgtext_container_1980 .p_foto1980:hover {
+    display: none;
+  }
   main .p_1980 .p1980_contenido .imgtext_container_1980 .text_1980 {
     text-align: center;
     margin-top: 20px;
@@ -475,6 +481,11 @@ footer .footer_content {
     padding-top: 0px;
     justify-content: center;
     padding-right: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  main .p_1980 .p1980_contenido .imgtext_container_1980 .p_foto1980 {
+    width: 300px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -769,6 +780,8 @@ footer .footer_content {
 @media screen and (max-width: 480px) {
   .main_discos .disco {
     width: 400px;
+    transition: none;
+    transform: none;
   }
   footer .image_footer_container .image_footer {
     width: 100vw;
@@ -779,9 +792,22 @@ footer .footer_content {
     padding-right: 0px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 415px) {
+  .main_discos .disco {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 376px) {
   .main_discos .disco {
     width: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main_discos .disco {
+    width: 270px;
+  }
+  .main_discos .disco:hover {
+    display: none;
   }
 }
 .title_contacto {
