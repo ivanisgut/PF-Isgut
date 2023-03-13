@@ -442,9 +442,6 @@ footer .footer_content {
   main .p_1980 .p1980_contenido .imgtext_container_1980 .p_foto1980 {
     width: 300px;
   }
-  main .p_1980 .p1980_contenido .imgtext_container_1980 .p_foto1980:hover {
-    display: none;
-  }
   main .p_1980 .p1980_contenido .imgtext_container_1980 .text_1980 {
     text-align: center;
     margin-top: 20px;
@@ -485,7 +482,7 @@ footer .footer_content {
 }
 @media screen and (max-width: 376px) {
   main .p_1980 .p1980_contenido .imgtext_container_1980 .p_foto1980 {
-    width: 300px;
+    width: 300px !important;
   }
 }
 @media screen and (max-width: 320px) {

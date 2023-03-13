@@ -753,9 +753,7 @@ footer{
                             width: 300px;
 
                         }
-                        .p_foto1980:hover{
-                            display: none;
-                        }
+  
 
 
                         .text_1980{
@@ -850,7 +848,11 @@ footer{
                 .p1980_contenido{
                     .imgtext_container_1980{
                         .p_foto1980{
-                            width: 300px;
+                            width: 300px!important;
+                        }
+
+                        .p_foto1980:hover{
+
                         }
 
                     }
