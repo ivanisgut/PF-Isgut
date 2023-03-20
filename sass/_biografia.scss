@@ -63,6 +63,19 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
+
+                .card_container_inicios{
+                    display: flex;
+                    padding-left: 40px;
+
+                }
+
+                .card{
+                    background-color: black;
+                    margin-left: 30px;
+                    
+                    
+                }
             }
 
         }
@@ -72,7 +85,7 @@
 .foto_bio{
     width: 400px;
     padding-bottom: 20px;
-    margin-left: 20px;
+
 }
 
     }
@@ -84,13 +97,42 @@
     .bio_infancia{
 
         display: flex;
-        justify-content: center;
+
         align-items: center;
 
         .text_img_bioinfancia{
             display: flex;
+
             justify-content: space-around;
             align-items: center;
+
+            .card_container{
+                display: flex;
+
+
+
+            }
+
+
+            
+            .card{
+                background-color: black;
+                margin-right: 40px;
+
+                p{
+                    color: white;
+                    padding-left: 0px;
+                    font-size: 1.1rem;
+                    font-family: 'Roboto', sans-serif;
+
+                }
+                .foto_infancia_card{
+                    width: 100%;
+                    height: 120px;
+                }
+                
+            }
+
         }
 
 
@@ -231,6 +273,11 @@
             .text_img_bioinfancia{
                 display: block;
 
+                .card_container{
+                    justify-content: center;
+                    padding-left: 35px;
+                }
+
                 .foto_bio_infancia{
                     .foto_infancia{
                         padding-top: 20px;
@@ -255,7 +302,7 @@
             }
 
             p{
-                color: black;
+                color: white;
             }
 
             .foto_bio{
@@ -269,6 +316,11 @@
 
                 .text_img_bioinicios{
                     display: block;
+
+                    .card_container_inicios{
+                        justify-content: center;
+                        padding-left: 0px;
+                    }
                 }
             }
         }
@@ -306,6 +358,65 @@
 }
 
 @media screen and (max-width: 480px){
+
+
+    .main_bio{
+
+        .bio_infancia{
+            .text_img_bioinfancia{
+                .card_container{
+                    display: block;
+                    text-align: center;
+                    padding-left: 0px;
+
+                    .card_1{
+                        display: flex;
+                        justify-content: center;
+                        margin-bottom: 40px;
+
+                        .card{
+                            p{
+                                font-size: 1.2rem;
+                            }
+
+
+                            margin-right: 0px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .main_bio{
+        .bio_inicios{
+
+            h3{
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            .bio_inicios_contenido{
+                .text_img_bioinicios{
+                    .card_container_inicios{
+                        display: block;
+                        .card_1{
+                            display: flex;
+                            justify-content: center;
+                            margin-bottom: 40px;
+                            
+    
+                        }
+    
+                    }
+                }
+
+            }
+
+        }
+    }
+
+
 
     footer{
         .image_footer_container{

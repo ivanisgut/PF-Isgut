@@ -46,6 +46,10 @@ body {
   background-position: right;
 }
 
+.navbar-toggler {
+  background-color: white;
+}
+
 header {
   background-color: white;
   background-image: url(https://historia-biografia.com/wp-content/uploads/2022/10/Charly-Garcia-2.webp);
@@ -272,10 +276,14 @@ footer {
 footer .p_logo_redes {
   height: 25px;
   width: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 footer .p_copyright {
   height: 15px;
   width: 15px;
+  margin-right: 5px;
+  margin-bottom: 8px;
 }
 footer .image_footer {
   height: 250px;
@@ -731,8 +739,21 @@ footer .footer_content {
 .main_discos {
   background-color: rgb(236, 224, 236);
 }
+.main_discos p {
+  font-size: 1.4rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
 .main_discos h2 {
   color: black;
+  font-family: "Oswald", sans-serif;
+}
+.main_discos section {
+  margin-bottom: 30px;
+}
+.main_discos section .discografia_discos_container {
+  display: flex;
+  margin-bottom: 30px;
 }
 .main_discos .disco {
   width: 600px;
@@ -756,6 +777,12 @@ footer .footer_content {
 @media screen and (max-width: 768px) {
   .main_discos {
     background-color: black;
+  }
+  .main_discos section .discografia_discos_container {
+    display: block;
+  }
+  .main_discos p {
+    color: white;
   }
   .main_discos .title_discos_container h2 {
     color: white;
@@ -830,7 +857,7 @@ footer .footer_content {
   padding-bottom: 20px;
 }
 .form_container form {
-  background-color: rgb(194, 62, 62);
+  background-color: black;
   display: flex;
   justify-content: start;
   font-family: "Roboto", sans-serif;
@@ -838,6 +865,28 @@ footer .footer_content {
   font-weight: bold;
   padding-top: 20px;
   text-align: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.form_container form legend {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 30px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  padding-right: 50px;
+}
+.form_container form label {
+  color: white;
+}
+.form_container form .nombre_form {
+  padding-right: 30px;
+}
+.form_container form .mensaje_form {
+  padding-left: 25px;
 }
 .form_container h3 {
   text-align: start;
@@ -847,6 +896,7 @@ footer .footer_content {
   text-decoration: none;
   font-weight: bold;
   color: black;
+  font-size: 2.5rem;
 }
 .form_container .foto_contacto {
   height: 350px;
@@ -857,6 +907,7 @@ footer .footer_content {
 .form_container .botones_contacto {
   display: flex;
   justify-content: center;
+  padding-left: 30px;
 }
 .form_container .botones_contacto .boton_enviar {
   font-family: "Oswald", sans-serif;
@@ -866,6 +917,7 @@ footer .footer_content {
   background-color: black;
   margin-right: 30px;
   transition: 1s;
+  background-color: rgb(194, 62, 62);
 }
 .form_container .botones_contacto .boton_enviar:hover {
   width: 60px;
@@ -879,6 +931,7 @@ footer .footer_content {
   width: 50px;
   height: 30px;
   transition: 1s;
+  background-color: rgb(194, 62, 62);
 }
 .form_container .botones_contacto .boton_reset:hover {
   width: 60px;
@@ -915,14 +968,39 @@ footer .footer_content {
   .title_contacto h2 {
     padding-left: 0px;
   }
+  .form_container {
+    display: block;
+  }
   .form_container .foto_contacto {
     display: none;
   }
   .form_container h3 {
     padding-right: 0px;
+    display: flex;
+    justify-content: center;
   }
   .form_container form {
     font-size: 1.2rem;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .form_container form legend {
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .form_container form .nombre_form {
+    padding-right: 45px;
+  }
+  .form_container form .mail_form {
+    padding-right: 20px;
+  }
+  .form_container form .mensaje_form {
+    padding-left: 0px;
+  }
+  .form_container form .botones_contacto {
+    padding-left: 35px;
   }
   footer .image_footer_container .image_footer {
     width: 250px;
@@ -938,10 +1016,81 @@ footer .footer_content {
     padding-top: 70px;
   }
 }
+@media screen and (max-width: 415px) {
+  .form_container {
+    display: block;
+  }
+  .form_container h3 {
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+  }
+  .form_container form {
+    margin-right: 0px;
+    justify-content: center;
+  }
+  .form_container form .nombre_form {
+    display: flex;
+    justify-content: center;
+  }
+  .form_container form .mail_form {
+    display: flex;
+    justify-content: center;
+    padding-right: 25px;
+  }
+  .form_container form .mensaje_form {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+  }
+  .form_container form label {
+    margin-right: 7px;
+  }
+  .form_container .botones_contacto {
+    padding-left: 45px;
+  }
+}
 @media screen and (max-width: 376px) {
+  .form_container {
+    display: block;
+  }
   .form_container h3 {
     font-size: medium;
     padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+  }
+  .form_container form {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .form_container form .mensaje_form {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .form_container form .mail_form {
+    display: flex;
+    justify-content: center;
+    padding-right: 27px;
+  }
+  .form_container form .nombre_form {
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+  }
+  .form_container form legend {
+    justify-content: center;
+    padding-right: 0px;
+  }
+  .form_container form label {
+    margin-right: 7px;
+  }
+  .form_container .botones_contacto {
+    padding-left: 25px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -992,23 +1141,46 @@ footer .footer_content {
   align-items: center;
   justify-content: space-around;
 }
+.main_bio .bio_inicios .bio_inicios_contenido .text_img_bioinicios .card_container_inicios {
+  display: flex;
+  padding-left: 40px;
+}
+.main_bio .bio_inicios .bio_inicios_contenido .text_img_bioinicios .card {
+  background-color: black;
+  margin-left: 30px;
+}
 .main_bio .bio_inicios .foto_bio {
   width: 400px;
   padding-bottom: 20px;
-  margin-left: 20px;
 }
 .main_bio .foto_infancia {
   width: 400px;
 }
 .main_bio .bio_infancia {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .main_bio .bio_infancia .text_img_bioinfancia {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.main_bio .bio_infancia .text_img_bioinfancia .card_container {
+  display: flex;
+}
+.main_bio .bio_infancia .text_img_bioinfancia .card {
+  background-color: black;
+  margin-right: 40px;
+}
+.main_bio .bio_infancia .text_img_bioinfancia .card p {
+  color: white;
+  padding-left: 0px;
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+}
+.main_bio .bio_infancia .text_img_bioinfancia .card .foto_infancia_card {
+  width: 100%;
+  height: 120px;
 }
 .main_bio .bio_infancia p {
   color: white;
@@ -1102,6 +1274,10 @@ footer .footer_content {
   .main_bio .bio_infancia .text_img_bioinfancia {
     display: block;
   }
+  .main_bio .bio_infancia .text_img_bioinfancia .card_container {
+    justify-content: center;
+    padding-left: 35px;
+  }
   .main_bio .bio_infancia .text_img_bioinfancia .foto_bio_infancia .foto_infancia {
     padding-top: 20px;
     margin-left: 0px;
@@ -1116,7 +1292,7 @@ footer .footer_content {
     color: black;
   }
   .main_bio .bio_inicios p {
-    color: black;
+    color: white;
   }
   .main_bio .bio_inicios .foto_bio {
     margin-left: 0px;
@@ -1127,6 +1303,10 @@ footer .footer_content {
   }
   .main_bio .bio_inicios .bio_inicios_contenido .text_img_bioinicios {
     display: block;
+  }
+  .main_bio .bio_inicios .bio_inicios_contenido .text_img_bioinicios .card_container_inicios {
+    justify-content: center;
+    padding-left: 0px;
   }
   footer .image_footer_container .image_footer {
     width: 250px;
@@ -1143,6 +1323,34 @@ footer .footer_content {
   }
 }
 @media screen and (max-width: 480px) {
+  .main_bio .bio_infancia .text_img_bioinfancia .card_container {
+    display: block;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .main_bio .bio_infancia .text_img_bioinfancia .card_container .card_1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .main_bio .bio_infancia .text_img_bioinfancia .card_container .card_1 .card {
+    margin-right: 0px;
+  }
+  .main_bio .bio_infancia .text_img_bioinfancia .card_container .card_1 .card p {
+    font-size: 1.2rem;
+  }
+  .main_bio .bio_inicios h3 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .main_bio .bio_inicios .bio_inicios_contenido .text_img_bioinicios .card_container_inicios {
+    display: block;
+  }
+  .main_bio .bio_inicios .bio_inicios_contenido .text_img_bioinicios .card_container_inicios .card_1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
   footer .image_footer_container .image_footer {
     width: 100vw;
   }

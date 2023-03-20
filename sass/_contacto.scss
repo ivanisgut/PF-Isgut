@@ -15,8 +15,6 @@
 
 
 
-
-
 .title_contacto{
     display: flex;
     justify-content: start;
@@ -44,9 +42,11 @@
     justify-content: space-around;
     width: 100%;
     padding-bottom: 20px;
+    
+    
 
     form{
-        background-color: rgb(194, 62, 62);
+        background-color: black;
         display: flex;
         justify-content: start;
         font-family: 'Roboto', sans-serif;
@@ -54,6 +54,40 @@
         font-weight: bold;
         padding-top: 20px;
         text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+
+        legend{
+            display: flex;
+            justify-content: end;
+            margin-bottom: 30px;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            font-size: 2rem;
+            padding-right: 50px;
+
+
+
+        }
+
+        label{
+            color: white;
+        }
+
+        .nombre_form{
+            padding-right: 30px;
+
+        }
+
+        .mail_form{
+
+        }
+
+        .mensaje_form{
+            padding-left: 25px;
+        }
 
     }
 
@@ -65,6 +99,7 @@
         text-decoration: none;
         font-weight: bold;
         color: black;
+        font-size: 2.5rem;
     }
     .foto_contacto{
    
@@ -77,6 +112,7 @@
     .botones_contacto{
         display: flex;
         justify-content: center;
+        padding-left: 30px;
 
 
 
@@ -89,6 +125,7 @@
             background-color: black;
             margin-right: 30px;
             transition: 1s;
+            background-color:rgb(194, 62, 62) ;
 
         }
 
@@ -106,6 +143,7 @@
             width: 50px;
             height: 30px;
             transition: 1s;
+            background-color: rgb(194, 62, 62);
         }
 
         .boton_reset:hover{
@@ -172,6 +210,7 @@
     }
 
     .form_container{
+        display: block;
 
 
         .foto_contacto{
@@ -182,10 +221,41 @@
 
         h3{
             padding-right: 0px;
+            display: flex;
+            justify-content: center;
 
         }
+
+
         form{
             font-size: 1.2rem;
+            margin-right: 0px;
+            display: flex;
+            justify-content: center;
+
+                legend{
+                    padding-right: 0px;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .nombre_form{
+                    padding-right: 45px;
+
+                }
+
+                .mail_form{
+                    padding-right: 20px;
+
+                }
+
+                .mensaje_form{
+                    padding-left: 0px;
+                }
+
+                .botones_contacto{
+                    padding-left: 35px;
+                }
 
         }
     }
@@ -223,14 +293,106 @@
 
 }
 
+@media screen and (max-width: 415px){
+
+    .form_container{
+        display: block;
+
+        h3{
+            display: flex;
+            justify-content: center;
+            padding-right: 0px;
+        }
+
+        form{
+            margin-right: 0px;
+            justify-content: center;
+
+            .nombre_form{
+                display: flex;
+                justify-content: center;
+            }
+
+            .mail_form{
+                display: flex;
+                justify-content: center;
+                padding-right: 25px;
+            }
+
+
+            .mensaje_form{
+                display: flex;
+                justify-content: center;
+                padding-right: 15px;
+            }
+
+            label{
+                margin-right: 7px;
+            }
+        }
+
+        .botones_contacto{
+            padding-left: 45px;
+        }
+
+    }
+
+}
+
+
+
 @media screen and (max-width: 376px){
 
 
     .form_container{
+        display: block;
 
         h3{
             font-size: medium;
             padding-left: 10px;
+            display: flex;
+            justify-content: center;
+            font-size: 2.5rem;
+        }
+
+        form{
+            display: flex;
+            justify-content: center;
+            margin-right: 0px;
+            margin-top: 0px;
+
+            .mensaje_form{
+                padding-left: 0px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .mail_form{
+                display: flex;
+                justify-content: center;
+                padding-right: 27px;
+            }
+
+            .nombre_form{
+                display: flex;
+                justify-content: center;
+                padding-right: 50px;
+
+            }
+
+            legend{
+                justify-content: center;
+                padding-right: 0px;
+            }
+
+            label{
+                margin-right: 7px;
+            }
+        
+        }
+
+        .botones_contacto{
+            padding-left: 25px;
         }
     }
 

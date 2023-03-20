@@ -67,6 +67,12 @@ body{
 }
 
 
+.navbar-toggler{
+
+    background-color: white;
+}
+
+
     header{
         background-color: white;
         background-image: url(https://historia-biografia.com/wp-content/uploads/2022/10/Charly-Garcia-2.webp);
@@ -122,6 +128,8 @@ body{
 
 
 nav{
+
+
     ul{
         display: flex;
         justify-content: space-around;
@@ -129,6 +137,7 @@ nav{
         width: 100%;
 
     }
+
 
 
     li{
@@ -420,6 +429,8 @@ footer{
 .p_logo_redes{
     height: 25px;
     width: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 
@@ -427,6 +438,8 @@ footer{
 .p_copyright{
     height: 15px;
     width: 15px;
+    margin-right: 5px;
+    margin-bottom: 8px;
 }
 
 .image_footer{
@@ -470,6 +483,7 @@ footer{
             font-size: medium;
         }
     }
+    
 
     .footer_content{
         display: flex;
@@ -480,12 +494,14 @@ footer{
         font-family: 'Inter', sans-serif;
         color: white;
     padding-top: 50px;
-
-    
     
     }
+
     
 }
+
+
+
 @media screen and (max-width: 1200px){
 
     header{

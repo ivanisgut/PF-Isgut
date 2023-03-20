@@ -17,14 +17,37 @@
 
 
 .main_discos{
+    p{
+        font-size: 1.4rem;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+
+
+    }
 
     background-color: rgb(236, 224, 236);
     h2{
         color: black;
+        font-family: 'Oswald', sans-serif;
         
 
 
     }
+
+    section{
+
+
+
+        margin-bottom: 30px;
+        .discografia_discos_container{
+            display: flex;
+            margin-bottom: 30px;
+
+
+        }
+    }
+
+
     .disco{
         width: 600px;
         margin-bottom: 30px;
@@ -61,6 +84,16 @@
 
     .main_discos{
         background-color: black;
+
+        section{
+            .discografia_discos_container{
+                display: block;
+            }
+        }
+
+        p{
+            color: white;
+        }
         .title_discos_container{
             h2{
                 color: white;
