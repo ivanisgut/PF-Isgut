@@ -93,11 +93,16 @@
 
         p{
             color: white;
+            margin-bottom: 30px;
         }
         .title_discos_container{
             h2{
                 color: white;
             }
+        }
+
+        .disco:hover{
+            display: none;
         }
     }
 

@@ -363,6 +363,8 @@
     .main_bio{
 
         .bio_infancia{
+
+            background-color: rgb(226, 220, 220);
             .text_img_bioinfancia{
                 .card_container{
                     display: block;
@@ -389,8 +391,11 @@
         }
     }
 
+
+    
     .main_bio{
         .bio_inicios{
+            background-color: rgb(226, 220, 220);
 
             h3{
                 padding-left: 0px;
@@ -404,6 +409,11 @@
                             display: flex;
                             justify-content: center;
                             margin-bottom: 40px;
+                            .card{
+                                margin-left: 0px;
+
+                                
+                            }
                             
     
                         }

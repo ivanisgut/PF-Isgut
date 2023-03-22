@@ -328,6 +328,15 @@ footer .footer_content {
   color: white;
   padding-top: 50px;
 }
+footer .footer_content a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+footer .footer_content li {
+  list-style: none;
+}
 
 @media screen and (max-width: 1200px) {
   header {
@@ -783,9 +792,13 @@ footer .footer_content {
   }
   .main_discos p {
     color: white;
+    margin-bottom: 30px;
   }
   .main_discos .title_discos_container h2 {
     color: white;
+  }
+  .main_discos .disco:hover {
+    display: none;
   }
   footer .image_footer_container .image_footer {
     width: 250px;
@@ -1323,6 +1336,9 @@ footer .footer_content {
   }
 }
 @media screen and (max-width: 480px) {
+  .main_bio .bio_infancia {
+    background-color: rgb(226, 220, 220);
+  }
   .main_bio .bio_infancia .text_img_bioinfancia .card_container {
     display: block;
     text-align: center;
@@ -1339,6 +1355,9 @@ footer .footer_content {
   .main_bio .bio_infancia .text_img_bioinfancia .card_container .card_1 .card p {
     font-size: 1.2rem;
   }
+  .main_bio .bio_inicios {
+    background-color: rgb(226, 220, 220);
+  }
   .main_bio .bio_inicios h3 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1350,6 +1369,9 @@ footer .footer_content {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+  }
+  .main_bio .bio_inicios .bio_inicios_contenido .text_img_bioinicios .card_container_inicios .card_1 .card {
+    margin-left: 0px;
   }
   footer .image_footer_container .image_footer {
     width: 100vw;
